@@ -3,24 +3,6 @@
   padding: 0;
 }
 
-.cf:before,
-.cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
-
-.cf:after {
-  clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-  *zoom: 1;
-}
-
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -103,7 +85,7 @@ h4 {
 #projects {
   background-color: #45567d;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
 }
 
 .container {
