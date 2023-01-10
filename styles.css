@@ -85,7 +85,7 @@ h4 {
 #projects {
   background-color: #45567d;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .container {
@@ -113,11 +113,17 @@ h4 {
   display: block;
   margin-top: 40px;
   transition: 0.8s;
+  overflow: hidden;
 }
 
 .project:hover {
   box-shadow: -7px 7px 0 0 black;
   transform: translateX(10px) translateY(-10px);
+}
+
+.project:hover .hero {
+  filter: saturate(0.2);
+  transform: scale(1.05);
 }
 
 a {
@@ -139,6 +145,7 @@ a:hover span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 2s;
 }
 
 .judul {
