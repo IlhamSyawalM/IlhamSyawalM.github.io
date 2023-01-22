@@ -42,11 +42,22 @@ main {
   top: 78px;
 }
 
+video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  min-height: 100%;
+  bottom: 0;
+  left: 0;
+}
+
 #about {
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-  height: calc(100vh - 50px);
+  z-index: 1;
+  min-height: calc(100vh - 50px);
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 #about .foto {
