@@ -202,6 +202,10 @@ a:hover span {
   background-image: url(./Gambar/Using\ Grid\ &\ Flex-box.jpg);
 }
 
+.duabelas .hero {
+  background-image: url(./Gambar/Color\ Picker.jpg);
+}
+
 .kembali {
   align-self: center;
   margin: 20px 0;
