@@ -4,7 +4,7 @@ $(".page-scroll").on("click", function (e) {
 
   $("html,body").animate(
     {
-      scrollTop: elemenTujuan.offset().top - 50,
+      scrollTop: elemenTujuan.offset().top - 70,
     },
     1250,
     "swing"
