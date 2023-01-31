@@ -277,7 +277,7 @@ a:hover span {
 
 #contact h1 {
   font-size: 35px;
-  padding-top: 30vh;
+  padding-top: 28vh;
   margin-bottom: 10px;
 }
 
@@ -316,7 +316,7 @@ a:hover span {
 footer {
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
   margin-top: 78px;
-  height: 80px;
+  height: 75px;
   border-top: 5px solid #be3144;
   padding-top: 10px;
   line-height: 30px;
